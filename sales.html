@@ -30,9 +30,30 @@
   <section class="bg"><img src="images/family.jpg" alt=""></section>
   <section>
 
-    <form>
-      Put your input form here!!!
+    <form id="cookie-form">
+      <fieldset>
+        <legend>Cookie order submission form</legend>
+
+        <label for="customer">Name: </label><br>
+        <input name="customer" type="text" size=175>
+
+        <label for="minCookie">Minimum Cookie: </label><br>
+        <input name="fieldOne" type="text" size=175>
+
+        <label for="maxCookie">Maximum Cookie: </label><br>
+        <input name="fieldTwo" type="text" size=175>
+
+        <label for="avgCookie">Average Cookie: </label><br>
+        <input name="fieldThree" type="text" size=175>
+
+
+        <button id="comment-button" type="submit">Order Submission</button>
+      </fieldset>
     </form>
+
+    <button id="clear-cookie-list">Reset Order Form</button>
+
+    <ul id="cookie-list"></ul>
 
   </section>
   <section id='store_data'></section>
